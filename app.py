@@ -6,7 +6,7 @@ import folium
 # Load Airbnb dataset
 @st.cache_data  # Cache the data to avoid reloading on every interaction
 def load_data():
-    return pd.read_csv('AB_US_2023.csv')  # Replace with your dataset's filename
+    return pd.read_csv('AB_US_2023_Sample.csv')  # Replace with your dataset's filename
 
 # Create a map
 def create_map(df, city):
